@@ -253,7 +253,7 @@ It is used in following way:
 The main difference between the unbonding and slashing paths is the existence of
 `FinalityProviderPk` in the slashing path.
 
-This leads to following system wide repercussions:
+This leads to following system-wide repercussions:
 
 - for staking request to become active, btc staker needs to provide valid
   unbonding transaction in this staking request. This staking request will become
